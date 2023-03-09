@@ -27,8 +27,8 @@ class ejercicio1_4:
         entrada = input("Separados entre comas : ")
         entrada=entrada.split(",")#se vuelve una lista entrada
         length = len(abecedario)
-        i = 1
-        j = 1
+        i = 0
+        j = 0
         inicial=entrada[0]
         final=entrada[-1]
         valoresFaltantes=[]
